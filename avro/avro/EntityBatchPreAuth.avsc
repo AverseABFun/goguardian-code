@@ -186,7 +186,7 @@
                 "items": {
                   "type": "record",
                   "name": "SearchMetadata",
-                  "doc": "Metadata related to searches",
+                  "doc": "[DEPRECATED] Metadata related to searches, replaced with search terms extraction from entity URL on the Quiddity side. When serializing, this field can be either an empty array or be omitted entirely.",
                   "fields": [
                     {
                       "name": "isNew",
